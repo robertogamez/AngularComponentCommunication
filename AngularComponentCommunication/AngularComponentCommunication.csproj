@@ -80,6 +80,18 @@
     <Content Include="03\APM\src\tsconfig.spec.json" />
     <Content Include="03\APM\tsconfig.json" />
     <Content Include="03\APM\tslint.json" />
+    <Content Include="03\APM-Start\.angular-cli.json" />
+    <Content Include="03\APM-Start\.editorconfig" />
+    <Content Include="03\APM-Start\.vscode\settings.json" />
+    <Content Include="03\APM-Start\e2e\tsconfig.e2e.json" />
+    <Content Include="03\APM-Start\package-lock.json" />
+    <Content Include="03\APM-Start\package.json" />
+    <Content Include="03\APM-Start\README.md" />
+    <Content Include="03\APM-Start\src\assets\.gitkeep" />
+    <Content Include="03\APM-Start\src\tsconfig.app.json" />
+    <Content Include="03\APM-Start\src\tsconfig.spec.json" />
+    <Content Include="03\APM-Start\tsconfig.json" />
+    <Content Include="03\APM-Start\tslint.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -88,6 +100,32 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="03\APM-Start\.gitignore" />
+    <Content Include="03\APM-Start\karma.conf.js" />
+    <Content Include="03\APM-Start\protractor.conf.js" />
+    <Content Include="03\APM-Start\src\app\app.component.css" />
+    <Content Include="03\APM-Start\src\app\app.component.html" />
+    <Content Include="03\APM-Start\src\app\home\menu.component.html" />
+    <Content Include="03\APM-Start\src\app\home\shell.component.css" />
+    <Content Include="03\APM-Start\src\app\home\shell.component.html" />
+    <Content Include="03\APM-Start\src\app\home\welcome.component.html" />
+    <Content Include="03\APM-Start\src\app\products\edit\product-edit.component.css" />
+    <Content Include="03\APM-Start\src\app\products\edit\product-edit.component.html" />
+    <Content Include="03\APM-Start\src\app\products\product-detail.component.css" />
+    <Content Include="03\APM-Start\src\app\products\product-detail.component.html" />
+    <Content Include="03\APM-Start\src\app\products\product-list.component.css" />
+    <Content Include="03\APM-Start\src\app\products\product-list.component.html" />
+    <Content Include="03\APM-Start\src\app\products\product-shell\product-shell-detail.component.html" />
+    <Content Include="03\APM-Start\src\app\products\product-shell\product-shell-list.component.html" />
+    <Content Include="03\APM-Start\src\app\products\product-shell\product-shell.component.html" />
+    <Content Include="03\APM-Start\src\app\shared\star.component.css" />
+    <Content Include="03\APM-Start\src\app\shared\star.component.html" />
+    <Content Include="03\APM-Start\src\app\user\login.component.css" />
+    <Content Include="03\APM-Start\src\app\user\login.component.html" />
+    <Content Include="03\APM-Start\src\assets\images\logo.jpg" />
+    <Content Include="03\APM-Start\src\favicon.ico" />
+    <Content Include="03\APM-Start\src\index.html" />
+    <Content Include="03\APM-Start\src\styles.css" />
     <Content Include="03\APM\karma.conf.js" />
     <Content Include="03\APM\protractor.conf.js" />
     <Content Include="03\APM\src\app\app.component.css" />
@@ -119,6 +157,39 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="03\APM-Start\e2e\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="03\APM-Start\e2e\app.po.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\app-routing.module.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\app.component.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\app.module.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\home\menu.component.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\home\page-not-found.component.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\home\shell.component.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\home\welcome.component.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\products\edit\product-edit-guard.service.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\products\edit\product-edit.component.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\products\product-data.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\products\product-detail.component.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\products\product-list.component.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\products\product-shell\product-shell-detail.component.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\products\product-shell\product-shell-list.component.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\products\product-shell\product-shell.component.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\products\product.module.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\products\product.service.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\products\product.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\shared\shared.module.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\shared\star.component.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\user\auth-guard.service.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\user\auth.service.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\user\login.component.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\user\user.module.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\user\user.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\environments\environment.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\main.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\polyfills.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\test.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\typings.d.ts" />
     <TypeScriptCompile Include="03\APM\e2e\app.e2e-spec.ts" />
     <TypeScriptCompile Include="03\APM\e2e\app.po.ts" />
     <TypeScriptCompile Include="03\APM\src\app\app-routing.module.ts" />
