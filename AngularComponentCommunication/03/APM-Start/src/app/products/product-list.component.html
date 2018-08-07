@@ -12,7 +12,17 @@
                        [ngModel]='listFilter'
                        (ngModelChange)='onFilterChange($event)' />-->
                 <input type='text'
-                       [(ngModel)]='listFilter' />
+                       [(ngModel)]='listFilter'
+                       #filterElement />
+            </div>
+            <div class='col-md-2'>Filter Name:</div>
+            <div class='col-md-4'>
+                <!--<input type='text'
+               [ngModel]='listFilter'
+               (ngModelChange)='onFilterChange($event)' />-->
+                <input type='text'
+                       [(ngModel)]='filterName'
+                       #nameElement />
             </div>
         </div>
         <div class='row' [hidden]='!listFilter'>
