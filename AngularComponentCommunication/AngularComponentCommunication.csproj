@@ -68,6 +68,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="03\APM-Start\src\app\shared\criteria\criteria.component.css" />
+    <Content Include="03\APM-Start\src\app\shared\criteria\criteria.component.html" />
     <Content Include="packages.config" />
     <Content Include="03\APM\.angular-cli.json" />
     <Content Include="03\APM\.editorconfig" />
@@ -177,6 +179,8 @@
     <TypeScriptCompile Include="03\APM-Start\src\app\products\product.module.ts" />
     <TypeScriptCompile Include="03\APM-Start\src\app\products\product.service.ts" />
     <TypeScriptCompile Include="03\APM-Start\src\app\products\product.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\shared\criteria\criteria.component.spec.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\shared\criteria\criteria.component.ts" />
     <TypeScriptCompile Include="03\APM-Start\src\app\shared\shared.module.ts" />
     <TypeScriptCompile Include="03\APM-Start\src\app\shared\star.component.ts" />
     <TypeScriptCompile Include="03\APM-Start\src\app\user\auth-guard.service.ts" />

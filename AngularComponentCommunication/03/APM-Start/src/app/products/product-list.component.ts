@@ -12,6 +12,10 @@ import {
     NgModel
 } from '@angular/forms';
 
+import {
+    Subscription
+} from 'rxjs/Subscription';
+
 import { IProduct } from './product';
 import { ProductService } from './product.service';
 
@@ -19,27 +23,14 @@ import { ProductService } from './product.service';
     templateUrl: './product-list.component.html',
     styleUrls: ['./product-list.component.css']
 })
-export class ProductListComponent implements OnInit, AfterViewInit {
+export class ProductListComponent implements OnInit {
     pageTitle: string = 'Product List';
-    //listFilter: string;
     showImage: boolean;
+    includeDetails: boolean = true;
 
     imageWidth: number = 50;
     imageMargin: number = 2;
     errorMessage: string;
-
-    @ViewChild('filterElement') filterElementRef: ElementRef;
-    @ViewChildren(NgModel) inputElementRefs: QueryList<ElementRef>;
-
-    private _listFilter: string;
-    get listFilter(): string {
-        return this._listFilter;
-    }
-
-    set listFilter(value: string) {
-        this._listFilter = value;
-        this.performFilter(this.listFilter);
-    }
 
     filteredProducts: IProduct[];
     products: IProduct[];
@@ -52,16 +43,13 @@ export class ProductListComponent implements OnInit, AfterViewInit {
         this.productService.getProducts().subscribe(
             (products: IProduct[]) => {
                 this.products = products;
-                this.performFilter(this.listFilter);
+                this.performFilter();
             },
             (error: any) => this.errorMessage = <any>error
         );
     }
 
-    ngAfterViewInit(): void {
-        this.filterElementRef.nativeElement.focus();
-        console.log(this.inputElementRefs);
-    }
+    
 
     //onFilterChange(filter: string): void {
     //    this.listFilter = filter;
