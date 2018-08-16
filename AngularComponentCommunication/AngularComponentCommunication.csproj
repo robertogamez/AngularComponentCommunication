@@ -173,6 +173,8 @@
     <TypeScriptCompile Include="03\APM-Start\src\app\products\product-data.ts" />
     <TypeScriptCompile Include="03\APM-Start\src\app\products\product-detail.component.ts" />
     <TypeScriptCompile Include="03\APM-Start\src\app\products\product-list.component.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\products\product-parameter.service.spec.ts" />
+    <TypeScriptCompile Include="03\APM-Start\src\app\products\product-parameter.service.ts" />
     <TypeScriptCompile Include="03\APM-Start\src\app\products\product-shell\product-shell-detail.component.ts" />
     <TypeScriptCompile Include="03\APM-Start\src\app\products\product-shell\product-shell-list.component.ts" />
     <TypeScriptCompile Include="03\APM-Start\src\app\products\product-shell\product-shell.component.ts" />
